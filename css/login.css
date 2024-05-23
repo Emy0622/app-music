@@ -5,58 +5,88 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body{
-    background-color: #1a1a1a;
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Varela';
+    overflow: hidden
 }
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
     padding: 20px;
     flex-wrap: wrap;
+    height: 100vh;
+    flex: 1;
+    background-color: #000000;
 }
 
 h2 {
     font-size: 70px;
-    font-family: Varela;
     background-color: #00d8ff;
     background-image: linear-gradient(0deg, #00d8ff 0%, #8d17f9 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: center;
     margin: 50px;
+    margin-bottom: 120px;
     width: 100%;
 }
 
-.side {
+.container1 {
+    height: 100%;
+    width: 900px;
+}
+
+.tela {
     width: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
-.input-group {
+.inputs {
     margin-bottom: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
-.input-group label {
-    margin-right: 10px;
+.inputs label {
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    pointer-events: none;
+    font-family: 'Varela', sans-serif;
 }
 
-.input-group input {
-    width: 100%;
-    height: 40px;
-    background: rgb(99, 99, 99);
+.inputs input[type="text"],
+.inputs input[type="password"] {
+    width: 315px;
+    height: 50px;
+    background: #373737;
     border: none;
     outline: none;
     font-size: 15px;
-    border-radius: 10px;
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.bt-criar {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4d1b69;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container img {
+    width: 950px;
+    height: 900px;
+    padding: 10%;
+    padding-left: 10%;
+    margin-top: -80px;
 }

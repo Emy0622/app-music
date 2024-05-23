@@ -12,7 +12,7 @@ body {
     background-color: #1a1a1a;
 }
 
-.title {
+.titulo {
     text-align: center;
     padding: 10px;
     font-family: Varela;
@@ -35,7 +35,7 @@ body {
     height: calc(100% - 60px);
 }
 
-.playlist-image {
+.imagem-playlist {
     max-width: 50%;
     height: auto;
     margin-bottom: 20px;
@@ -126,6 +126,9 @@ body {
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
+.container img{
+    width: 400px
+}
 .container .opcao .botao-opcao{
     cursor: pointer;
     padding: 8px 35px;
