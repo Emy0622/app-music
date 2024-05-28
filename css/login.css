@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela&family=Varela+Round&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     padding: 0;
-    font-family:'Varela';
+    font-family: 'Varela';
     overflow: hidden
 }
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -24,7 +25,7 @@ body {
 }
 
 h2 {
-    font-size: 70px;
+    font-size: 80px;
     background-color: #00d8ff;
     background-image: linear-gradient(0deg, #00d8ff 0%, #8d17f9 100%);
     background-clip: text;
@@ -32,7 +33,8 @@ h2 {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 50px;
-    margin-bottom: 120px;
+    margin-left: 140px;
+    margin-bottom: 140px;
     width: 100%;
 }
 
@@ -42,7 +44,7 @@ h2 {
 }
 
 .tela {
-    width: 45%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,37 +52,55 @@ h2 {
 }
 
 .inputs {
-    margin-bottom: 20px;
+    margin-bottom: 150px;
+    position: relative;
 }
 
 .inputs label {
+    position: absolute;
+    top: -56%;
     color: hsl(0, 0%, 100%);
-    font-size: 15px;
+    font-size: 22px;
     pointer-events: none;
-    font-family: 'Varela', sans-serif;
+    font-family: Varela;
+    left: 14px;
 }
 
-.inputs input[type="text"],
-.inputs input[type="password"] {
-    width: 315px;
+.inputs input {
+    width: 490px;
     height: 50px;
     background: #373737;
     border: none;
     outline: none;
-    font-size: 15px;
+    font-size: 20px;
     border-radius: 20px;
     color: aliceblue;
-    padding: 10px;
+    padding: 30px;
 }
 
 .bt-criar {
+    cursor: pointer;
     padding: 10px 20px;
-    font-size: 14px;
-    border-radius: 5px;
-    border: none;
     background-color: #4d1b69;
     color: #fff;
-    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    font-size: 24px;
+    background: rgb(125, 2, 196);
+    background: linear-gradient(0deg, rgb(140, 0, 255) 0%, rgb(78, 0, 141) 100%);
+    border: none;
+    margin: 0 auto;
+    /* centro */
+    display: block;
+    /* centro */
+    width: 300px;
+    height: 50px;
+}
+
+.bt-criar:hover {
+    background: rgb(0, 116, 131);
+    background: linear-gradient(0deg, rgb(41, 50, 172) 0%, rgb(4, 107, 175) 100%);
 }
 
 .container img {

@@ -12,7 +12,7 @@ body {
     background-color: #1a1a1a;
 }
 
-.titulo {
+.title {
     text-align: center;
     padding: 10px;
     font-family: Varela;
@@ -26,7 +26,6 @@ body {
     margin-top: -25px;
 }
 
-
 .container {
     display: flex;
     flex-direction: column;
@@ -35,13 +34,13 @@ body {
     height: calc(100% - 60px);
 }
 
-.imagem-playlist {
+.playlist-image {
     max-width: 50%;
     height: auto;
     margin-bottom: 20px;
 }
 
-.box-user{
+.box-user {
     position: relative;
     max-width: 50%;
     height: auto;
@@ -61,7 +60,7 @@ body {
     margin-top: 50px;
 }
 
-.container .box-user label{
+.container .box-user label {
     position: absolute;
     top: 0;
     left: 0;
@@ -70,20 +69,18 @@ body {
     pointer-events: none;
     transition: .5s;
     color: #f9f9f9;
-    font-family: Varela ;
+    font-family: Varela;
     margin-top: 30px;
-
 }
 
-.container .box-user input:focus~label{
+.container .box-user input:focus~label {
     top: -20px;
     left: 0;
     color: #376FFF;
     font-size: 20px;
 }
 
-
-.container .box-user label{
+.container .box-user label {
     position: absolute;
     top: 0;
     left: 0;
@@ -92,19 +89,17 @@ body {
     pointer-events: none;
     transition: .5s;
     color: #f9f9f9;
-    font-family: Varela ;
+    font-family: Varela;
     margin-top: 30px;
-
 }
 
-.container .box-user input:focus~label{
+.container .box-user input:focus~label {
     top: -20px;
     left: 0;
     color: #376FFF;
     font-size: 20px;
 }
 
-    
 .container .escolha {
     display: flex;
     justify-content: center;
@@ -126,10 +121,7 @@ body {
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
-.container img{
-    width: 400px
-}
-.container .opcao .botao-opcao{
+.container .opcao .botao-opcao {
     cursor: pointer;
     padding: 8px 35px;
     background-color: #545454;
@@ -147,29 +139,34 @@ body {
     background-color: #545454;
     color: #fff;
     border: 1px solid transparent;
-    border-radius: 20px; 
+    border-radius: 20px;
     margin: 0 25px;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     font-size: 20px;
 }
 
+.add :hover {
+    background: rgb(2, 173, 196);
+    background: linear-gradient(0deg, rgb(0, 167, 179) 0%, rgb(0, 153, 255) 100%);
+}
+
 .bt-criar {
     cursor: pointer;
-    padding: 15px 100px; 
+    padding: 15px 100px;
     background-color: #6125af;
     color: #fff;
     border: 1px solid transparent;
     border-radius: 20px;
     margin: 0 25px;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-    font-size: 24px; 
+    font-size: 24px;
     background: rgb(125, 2, 196);
     background: linear-gradient(0deg, rgb(140, 0, 255) 0%, rgb(78, 0, 141) 100%);
     border: none;
     margin-top: 70px;
-  }
-  .bt-criar:hover {
-     background: rgb(2, 173, 196);
-  background: linear-gradient(0deg, rgb(0, 167, 179) 0%, rgb(0, 153, 255) 100%);
-  }
-  
+}
+
+.bt-criar:hover {
+    background: rgb(2, 173, 196);
+    background: linear-gradient(0deg, rgb(0, 167, 179) 0%, rgb(0, 153, 255) 100%);
+}
