@@ -33,6 +33,18 @@ h2 {
     margin-bottom: 120px;
     width: 100%;
 }
+h3 {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 57%;
+    font-family: Varela;
+}
+h3 a {
+    text-decoration: none;
+    color: rgb(86, 108, 207);
+}
 
 .tela {
     width: 45%;
@@ -81,10 +93,8 @@ h2 {
     background: rgb(125, 2, 196);
     background: linear-gradient(0deg, rgb(140, 0, 255) 0%, rgb(78, 0, 141) 100%);
     border: none;
-    margin: 0 auto;
-    /* centro */
+    margin: -50px auto 0; 
     display: block;
-    /* centro */
 }
 
 .bt-criar:hover {
